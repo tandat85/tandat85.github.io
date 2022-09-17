@@ -1,0 +1,18 @@
+header{
+    background-color: aquamarine;
+    text-align: center;
+}
+header h1{
+    color:aliceblue;
+
+}
+header div{
+    color:black;
+}
+main h3{
+    color:blue;
+}
+footer{
+    text-align: center;
+    color:black;
+}
