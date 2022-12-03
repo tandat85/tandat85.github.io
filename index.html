@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="logo.png">
+        <link rel="stylesheet" href="background.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Webpage của Đạt</title>
+    </head>
+    <body>
+        <header>
+            <div id="wraper">
+            <div id="header">
+                <nav class="container">
+                    <a href="" id="logo">
+                        <img src="logo.png" alt="Gia huy tộc uchiha " width="90" height="90">
+                    </a>
+                    <ul id="main-menu">
+                        <li><a href=""> Trang chủ </a></li>
+                        <li><a href=""> Buổi Thực Hành </a>
+                            <ul class="sub-menu">
+                                <li><a href="">Buổi Thực Hành HTML</a>
+                                </li>
+                                <li><a href="">Buổi Thực Hành CSS</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="">Buổi 1</a></li>
+                                        <li><a href="">Buổi 2</a></li>
+                                        <li><a href="">Buổi 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Buổi Thực Hành Javascript</a></li>
+                            </ul>
+                        </li>
+                        <li><a href=""> GitHub </a></li>
+                        <li><a href=""> Giáo Trình </a></li>
+                        <li><a href=""> Tài Liệu Tham Khảo </a>
+                            <ul class="sub-menu">
+                                <li><a href="">Tài Liệu HTML</a></li>
+                                <li><a href="">Tài Liệu Javascript</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="">Javascript cơ bản </a></li>
+                                        <li><a href="">Javascript nâng cao</a></li>
+                                        <li><a href="">Các bài tâpj Javascript</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Tài Liệu CSS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+    </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+        <script>
+            $(document).ready(function(){
+                //seach all "li" have "sub-menu" and add "class has-child"
+                $('.sub-menu').parent('li').addClass('has-child');
+            });
+        </script>  
+       
+    </body>
+</html>
